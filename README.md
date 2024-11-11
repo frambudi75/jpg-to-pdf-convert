@@ -1,10 +1,10 @@
 
-# JPG to PDF Converter & PDF Merger with Custom Title
+# JPG to PDF Converter & PDF Merger
 
 ## Fitur
 - **Konversi JPG ke PDF**: Pilih beberapa file JPG dan konversikan masing-masing menjadi file PDF.
 - **Menggabungkan PDF**: Pilih beberapa file PDF untuk digabungkan menjadi satu file PDF.
-- **Menambahkan Judul di Setiap Halaman PDF**: Tambahkan teks kustom (misalnya "Programed by Habib Frambudi") di setiap halaman file PDF yang digabungkan.
+
 
 ## Persyaratan Sistem
 - Python 3.x
