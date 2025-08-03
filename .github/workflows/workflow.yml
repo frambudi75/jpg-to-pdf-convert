@@ -12,8 +12,10 @@ permissions:
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.10"
@@ -27,4 +29,4 @@ jobs:
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
-          environment: pypi
+          password: ${{ secrets.PYPI_API_TOKEN }}
