@@ -1,0 +1,19 @@
+[project]
+name = "img-to-pdf-compress"
+version = "4.0.0"
+description = "Convert JPG/PNG images to compressed PDF"
+authors = [{ name = "Frambudi", email = "your@email.com" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = [
+  "Pillow",
+  "img2pdf"
+]
+
+[project.scripts]
+img-to-pdf-kompres = "img_to_pdf_compress.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
